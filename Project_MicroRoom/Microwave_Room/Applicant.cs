@@ -10,28 +10,31 @@ namespace Microwave_Room
 {
     public class Applicant
     {
-        string firstName;
-        public string FirstName { get { return firstName; } }
-        string lastName;
-        public string LastName { get { return lastName; } }
-        string major;
-        public string Major { get { return major; } }
-        public DateTime expGrad = new DateTime();
+        public string FirstName { get { return FirstName; } private set { FirstName = value; } }
 
-        string email;
-        public string Email { get { return email; } }
+        public string LastName { get { return LastName; } private set { LastName = value; } }
 
-        string phoneNum;
+        public string Major { get { return Major; } private set { Major = value; } }
+        public DateTime ? ExpGrad = new DateTime();
+
+        public string Email { get { return Email; } private set { Email = value; } }
 
         public Applicant(string firstName, string lastName, string major, DateTime expGrad, string email)
         {
-            FirstName = FN;
-
+            FirstName = firstName;
+            LastName = lastName;
+            Major = major;
+            ExpGrad = expGrad;
+            Email = email;
         }
 
-        private string SetPhoneNum()
+        public Applicant()
         {
-            return "0";
+            FirstName = "";
+            LastName = "";
+            Major = "";
+            ExpGrad = null;
+            Email = "";
         }
     }
 }
