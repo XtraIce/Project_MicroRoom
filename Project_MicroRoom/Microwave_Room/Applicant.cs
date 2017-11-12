@@ -11,23 +11,24 @@ namespace Microwave_Room
     public class Applicant
     {
         public string FirstName { get { return FirstName; } private set { FirstName = value; } }
-
         public string LastName { get { return LastName; } private set { LastName = value; } }
-
         public string Major { get { return Major; } private set { Major = value; } }
-        public DateTime ? ExpGrad = new DateTime();
-
+        public DateTime? ExpGrad { get { return ExpGrad; }  private set { ExpGrad = value; } }
         public string Email { get { return Email; } private set { Email = value; } }
+        public int ? PhoneNumber { get { return PhoneNumber; } private set { PhoneNumber = value; } }
+        public string LinkedInLink { get { return LinkedInLink; } private set { LinkedInLink = value; } }
+        public string GitHubLink { get { return GitHubLink; } private set { LinkedInLink = value; } }
+        public string WebSiteLink { get { return WebSiteLink; } private set { WebSiteLink = value; } }
 
-        public string phoneNumber;
-        public Applicant(string firstName, string lastName, string major, DateTime expGrad, string email)
+        public Applicant(string firstName, string lastName, string major, DateTime expGrad, string email, int phoneNumber, 
+                                                    string LinkedInLink = "", string GitHubLink = "", string WebsiteLink = "")
         {
             FirstName = firstName;
             LastName = lastName;
             Major = major;
             ExpGrad = expGrad;
             Email = email;
-
+            PhoneNumber = phoneNumber;
         }
 
         public Applicant()
@@ -37,12 +38,10 @@ namespace Microwave_Room
             Major = "";
             ExpGrad = null;
             Email = "";
-            phoneNumber = GetPhoneNum();
-        }
-
-        string GetPhoneNum()
-        {
-            return "0";
+            PhoneNumber = null;
+            LinkedInLink = "";
+            GitHubLink = "";
+            WebSiteLink = "";
         }
     }
 }

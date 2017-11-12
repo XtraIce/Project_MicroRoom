@@ -40,6 +40,32 @@ namespace Microwave_Room
             Name = name;
             Email = email;
             PhoneNumber = phoneNumber;
-        }        
+        }
+
+        private string GetApplicantName(Applicant temp)
+        {
+            return temp.FirstName + " " + temp.LastName;
+        }
+
+        private string GetApplicantMajor(Applicant temp)
+        {
+            return temp.Major;
+        }
+
+        private DateTime ? GetApplicantGradDate(Applicant temp)
+        {
+            return temp.ExpGrad;
+        }
+
+        private string GetApplicantEmail(Applicant temp)
+        {
+            return temp.Email;
+        }
+
+        private int ? GetApplicantPhoneNumber(Applicant temp)
+        {
+            return temp.PhoneNumber;
+        }
+
     }
 }
