@@ -13,7 +13,7 @@ namespace Microwave_Room
         public string FirstName { get { return FirstName; } private set { FirstName = value; } }
         public string LastName { get { return LastName; } private set { LastName = value; } }
         public string Major { get { return Major; } private set { Major = value; } }
-        public DateTime? ExpGrad { get { return ExpGrad; }  private set { ExpGrad = value; } }
+        public DateTime ? ExpGrad { get { return ExpGrad; }  private set { ExpGrad = value; } }
         public string Email { get { return Email; } private set { Email = value; } }
         public int ? PhoneNumber { get { return PhoneNumber; } private set { PhoneNumber = value; } }
         public string LinkedInLink { get { return LinkedInLink; } private set { LinkedInLink = value; } }
