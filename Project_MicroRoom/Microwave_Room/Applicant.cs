@@ -19,6 +19,7 @@ namespace Microwave_Room
 
         public string Email { get { return Email; } private set { Email = value; } }
 
+        public string phoneNumber;
         public Applicant(string firstName, string lastName, string major, DateTime expGrad, string email)
         {
             FirstName = firstName;
@@ -26,6 +27,7 @@ namespace Microwave_Room
             Major = major;
             ExpGrad = expGrad;
             Email = email;
+
         }
 
         public Applicant()
@@ -35,6 +37,12 @@ namespace Microwave_Room
             Major = "";
             ExpGrad = null;
             Email = "";
+            phoneNumber = GetPhoneNum();
+        }
+
+        string GetPhoneNum()
+        {
+            return "0";
         }
     }
 }
