@@ -1,0 +1,9 @@
+C:\Users\ilike\source\repos\CodeDay 2017_GUI\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\ilike\source\repos\CodeDay 2017_GUI\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\ilike\source\repos\CodeDay 2017_GUI\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\ilike\source\repos\CodeDay 2017_GUI\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form_02.resources
+C:\Users\ilike\source\repos\CodeDay 2017_GUI\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\ilike\source\repos\CodeDay 2017_GUI\WindowsFormsApp1\obj\Debug\CodeDay 2017_GUI_02.csproj.GenerateResource.Cache
+C:\Users\ilike\source\repos\CodeDay 2017_GUI\WindowsFormsApp1\obj\Debug\CodeDay 2017_GUI_02.csproj.CoreCompileInputs.cache
+C:\Users\ilike\source\repos\CodeDay 2017_GUI\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\ilike\source\repos\CodeDay 2017_GUI\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

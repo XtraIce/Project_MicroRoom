@@ -1,0 +1,10 @@
+C:\Users\ilike\source\repos\CodeDay 2017_GUI\CodeDay 2017_GUI\bin\Debug\CodeDay 2017_GUI.exe.config
+C:\Users\ilike\source\repos\CodeDay 2017_GUI\CodeDay 2017_GUI\bin\Debug\CodeDay 2017_GUI.exe
+C:\Users\ilike\source\repos\CodeDay 2017_GUI\CodeDay 2017_GUI\bin\Debug\CodeDay 2017_GUI.pdb
+C:\Users\ilike\source\repos\CodeDay 2017_GUI\CodeDay 2017_GUI\obj\Debug\CodeDay 2017_GUI.csprojResolveAssemblyReference.cache
+C:\Users\ilike\source\repos\CodeDay 2017_GUI\CodeDay 2017_GUI\obj\Debug\CodeDay_2017_GUI.Form1.resources
+C:\Users\ilike\source\repos\CodeDay 2017_GUI\CodeDay 2017_GUI\obj\Debug\CodeDay_2017_GUI.Properties.Resources.resources
+C:\Users\ilike\source\repos\CodeDay 2017_GUI\CodeDay 2017_GUI\obj\Debug\CodeDay 2017_GUI.csproj.GenerateResource.Cache
+C:\Users\ilike\source\repos\CodeDay 2017_GUI\CodeDay 2017_GUI\obj\Debug\CodeDay 2017_GUI.csproj.CoreCompileInputs.cache
+C:\Users\ilike\source\repos\CodeDay 2017_GUI\CodeDay 2017_GUI\obj\Debug\CodeDay 2017_GUI.exe
+C:\Users\ilike\source\repos\CodeDay 2017_GUI\CodeDay 2017_GUI\obj\Debug\CodeDay 2017_GUI.pdb
